@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<h1>欢迎：${ sessionScope.loginAccount.name }</h1>
+
 <h3><a href="insertPages">跳转到添加页面</a></h3>
 <h1>list</h1>
 <c:forEach items="${testBeanList}" var="testBean">
